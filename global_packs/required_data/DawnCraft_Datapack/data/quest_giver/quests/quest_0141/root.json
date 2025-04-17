@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Можу навчити тебе, як робити простий перекат, якщо ти ще не знаєш, як це робиться..."
+    }
+  }
+}

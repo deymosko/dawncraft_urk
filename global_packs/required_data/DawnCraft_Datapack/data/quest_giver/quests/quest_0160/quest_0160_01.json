@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Перш ніж я довірю тобі ендер-бластери, ти мусиш виконати два завдання, щоб довести свою гідність: Загаси Пайплайнового Сторожа з пекельних дюн Нижнього світу та підстрижи повністю зрілу колонію грибів. Пам'ятай, що для цього тобі знадобиться розвинути багатий ґрунт."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Вітаю! Ось він. Цей бластер завдає потужного удару, наповненого величезним джерелом енергії."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

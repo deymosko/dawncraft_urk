@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Викуй Компас!"
+    },
+    "description": {
+      "text": "Це ж не таке вже й складне завдання, чи не так? Викуй компас."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Гарна робота. Йди тепер, чи ти очікував нагороду?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:compass"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Шлях до володарів очей"
+    },
+    "description": {
+      "text": "Огр - це зовсім інший рівень у порівнянні з королем гоблінів. Будь обережний."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Шлях до володарів очей"
+    },
+    "description": {
+      "text": "Чудово зроблено. Можливо, тепер ти зможеш зустрітися з $(red)Лицарем Робером$(). Він набагато слабший, ніж був колись, але я припускаю, що він все ще дуже небезпечний, адже він досі здатний утримувати силу ока, яке він тримає. Ось карта до його нинішнього місцезнаходження."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:arena Main Quest - Knight Rober's Arena",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting true",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

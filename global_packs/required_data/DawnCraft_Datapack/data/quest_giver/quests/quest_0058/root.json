@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Пригоднику, благаю, допоможи мені з однією справою."
+    }
+  }
+}

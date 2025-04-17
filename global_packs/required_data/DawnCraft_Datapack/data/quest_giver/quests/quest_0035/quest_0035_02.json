@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Інцендіум"
+    },
+    "description": {
+      "text": "Пам'ятай, Попільні Пустки в Нижньому світі. Повернись до мене, як тільки відвідаєш це місце."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Завершено"
+    },
+    "description": {
+      "text": "Це захоплююче... Дякую, що розповів мені про це місце. Ось твоя винагорода. Ну, йди тепер... Мені треба прийняти важливе рішення."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Збирання Колод"
+    },
+    "description": {
+      "text": "Чи здобув ти $(red)Кримсонове Дерево$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую! У мене зараз немає смарагдів... Чи приймеш ти цю алмазну кирку? Я щойно її зробив кілька годин тому."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:crimson_stem"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    }
+  ]
+}

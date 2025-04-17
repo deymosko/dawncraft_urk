@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:crossbow",
+  "start": {
+    "title": {
+      "text": "Добровільне Вигнання"
+    },
+    "description": {
+      "text": "Маю для тебе побічне завдання: Здолай Капітана Розбійників! Не забудь випити молока перед поверненням... Я тебе вб'ю, якщо ти приведеш цих набридливих розбійників до нас!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Добровільне Вигнання: Завершено"
+    },
+    "description": {
+      "text": "Гарна робота. Зачекай... Ти ж випив молоко, так?"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "minecraft:adventure/voluntary_exile"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:emerald",
+        "count": 2
+      }
+    }
+  ]
+}

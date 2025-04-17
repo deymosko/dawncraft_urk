@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0028_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_sapling",
+  "start": {
+    "title": {
+      "text": "Гірський Туман"
+    },
+    "description": {
+      "text": "Ой, чи знайшов ти вже містичний біом $(red)Гірський Туман$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "То це так..."
+    },
+    "description": {
+      "text": "То це так... Це доволі розчаровує, якщо чесно. Я думав, що в Гірських Туманах мешкають дракони... Що ж, принаймні тепер я знаю, що це лише міф. Дякую."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:magical_spring"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

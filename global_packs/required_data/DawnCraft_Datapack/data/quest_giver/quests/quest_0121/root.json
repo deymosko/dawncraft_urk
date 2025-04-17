@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Ендер-Охоронець охороняє дуже важливу річ. Чи хочеш дізнатися, де це?"
+    }
+  }
+}

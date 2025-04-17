@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0029_01b",
+  "reputation": 0,
+  "icon": "minecraft:mushroom_stew",
+  "start": {
+    "title": {
+      "text": "Грибна Юшка!"
+    },
+    "description": {
+      "text": "Чи приготував ти $(red)Грибну Юшку$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "То це так..."
+    },
+    "description": {
+      "text": "Смакота! Дякую, добрий чоловіче!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:mushroom_stew"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

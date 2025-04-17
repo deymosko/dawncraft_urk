@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0103_01b",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Чи здобув ти 2 пучки $(red)Болиголова$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую. Тепер я зможу зробити приманку."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "untamedwilds:flora_hemlock"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

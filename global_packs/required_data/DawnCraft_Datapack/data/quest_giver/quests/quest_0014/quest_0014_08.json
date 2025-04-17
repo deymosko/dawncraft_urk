@@ -1,0 +1,59 @@
+{
+  "parent": "quest_giver:quest_0014_07",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Шлях до Володарів Очей"
+    },
+    "description": {
+      "text": "Сторожовий Лицар охороняв Око Хранителя століттями. Жоден з відомих мені пригодників не зміг пройти повз нього... Я чув, що він тримає ключ, який звільняє око від його сплячого стану."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Шлях до Володарів Очей"
+    },
+    "description": {
+      "text": "Неймовірно. Навіть Сторожовий Лицар не зміг тебе зупинити... Що ж, ти наближаєшся до кінця своєї подорожі. Як ти почуваєшся? ... У будь-якому разі, тобі доведеться викликати наступного володаря ока. Ось, візьми цей вузол волосся та карту до його вівтаря виклику."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:guardian_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:giant_altar Main Quest - Fire Giant's Altar",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster6",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p fire_giant",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster8 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

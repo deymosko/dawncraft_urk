@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Шлях до володарів очей"
+    },
+    "description": {
+      "text": "Гм... Дев'ять Хвостів - це не зовсім людина. Ну, ти зрозумієш, коли побачиш його."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Шлях до володарів очей"
+    },
+    "description": {
+      "text": "Хм... На цьому етапі я вже навіть не здивований. Гарна робота. Дев'ять Хвостів був відомим жорстоким духом... Я не маю уявлення, чому він вирішив оселитися в покинутому сараї. У будь-якому разі, ось місцезнаходження наступного володаря ока. Будь обережний, це зовсім не схоже на тих, кого ти зустрічав раніше."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:floating_island Main Quest - Floating Island",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

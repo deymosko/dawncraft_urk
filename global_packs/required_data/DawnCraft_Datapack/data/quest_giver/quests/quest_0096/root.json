@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Чи можеш ти здобути для мене $(red)10 пилу червоного каменю$()? Я, звісно, заплачу за це."
+    }
+  }
+}

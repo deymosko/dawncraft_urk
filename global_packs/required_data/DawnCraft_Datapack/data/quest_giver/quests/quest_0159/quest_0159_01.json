@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Виконай два завдання, які я вимагаю, і лише тоді я розгляну можливість передати тобі могутній Руїн. Отримай Благословення Тигра після того, як нагодуєш його м'ясом, та обшукай Нижній Реактор у токсичних купах Нижнього світу."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудова робота! Ось він. У лезі цього клинка приховано багато знань..."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/tigers_blessing"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "incendium:toxic_heap/nuclear_fusion"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ruine"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

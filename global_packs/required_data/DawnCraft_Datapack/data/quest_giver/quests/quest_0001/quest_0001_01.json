@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Принеси мені щось!"
+    },
+    "description": {
+      "text": "Гей, добродію! Чи маєш ти $(red)4 залізних злитки$() для мене?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую тобі!"
+    },
+    "description": {
+      "text": "Дякую тобі! Нарешті я зможу зробити обладунки для того вартового... Він не давав мені спокою! Наразі я не маю чим віддячити, але клянуся, колись я поверну борг!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0060_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_boat",
+  "start": {
+    "title": {
+      "text": "Створення Човна"
+    },
+    "description": {
+      "text": "Пам'ятай, човен має бути зроблений із матеріалу $(red)Згубний Бальзам$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Це прийнятно, хоча могло б бути краще. Але це згодиться, дякую. Ось твоя винагорода, думаю, вона тобі сподобається."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:blighted_balsa_boat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fisherman",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

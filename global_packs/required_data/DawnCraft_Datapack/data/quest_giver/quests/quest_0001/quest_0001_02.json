@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Привіт знову!"
+    },
+    "description": {
+      "text": "Привіт знову! Чи приніс ти папір для мене? Я хочу намалювати тобі карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось."
+    },
+    "description": {
+      "text": "Ось. Є будинок, наповнений тими хворими та збоченими мисливцями... Один з моїх добрих друзів відстежив їхнє місце розташування та позначив його на цій карті. Я впевнений, що вони накопичили здобич, яку отримали від своїх ворогів... Убий їх і забери їхню здобич. Якщо зможеш, знайди намисто, яке вони вкрали у мене. Вони люблять ховати речі під столом. Подивися, чи зможеш ти знайти його, я зроблю все можливе, щоб віддячити тобі, якщо ти повернеш мені це намисто!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon Armorer's Request",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

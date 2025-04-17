@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Гей, добродію!"
+    },
+    "description": {
+      "text": "Гей, пригоднику! Маю для тебе виклик, чи приймеш його?"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Привіт"
+    },
+    "description": {
+      "text": "Мої та мого друга капелюхи вже добряче зносились. Ми хочемо зробити нові, розумієте... Чи не могли б ви принести нам $(red)сніп соломи$()?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "Привіт."
+    },
+    "description": {
+      "text": "Селянин в останню мить вирішив не розмовляти з вами."
+    }
+  }
+}

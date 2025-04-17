@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Заточення Леза"
+    },
+    "description": {
+      "text": "Чи здобув ти $(red)5 глибококам'яних каменів$()? Моє лезо вже тупе."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Завершено"
+    },
+    "description": {
+      "text": "Гарна робота! Як і очікувалось, ці камені мають як грубу, так і дрібну зернистість. Щиро дякую! Ось, візьми це, це твоя винагорода."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

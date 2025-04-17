@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0109_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Зникле Дитя"
+    },
+    "description": {
+      "text": "Врятуй дитя, прошу. Приведи його додому."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Зникле Дитя: Завершено"
+    },
+    "description": {
+      "text": "Неймовірно! Ти справді це зробив! Якщо чесно, я не сподівався, що дитя виживе... Ось, я навчу тебе новій навичці - Метеоритний Удар. Це єдине, чим я можу віддячити тобі."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:follow_quest",
+      "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:epicfight:meteor_slam}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

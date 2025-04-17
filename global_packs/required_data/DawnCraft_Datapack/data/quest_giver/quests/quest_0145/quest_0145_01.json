@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Можу навчити тебе навичці - Щит Серця за 15 блоків смарагдів. Що скажеш?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Ось тобі."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald_block"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:wom:heart_shield}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

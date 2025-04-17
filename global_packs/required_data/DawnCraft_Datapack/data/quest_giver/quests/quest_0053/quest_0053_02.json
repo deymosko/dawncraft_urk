@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_01",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Чи здобув ти $(red)2 насінини дині$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Принеси мені ще 4 солодкі ягоди, добре? Ми, селяни, не ризикуємо заходити до лісу, щоб їх зібрати.   *Ти чуєш, як селянин сміється, закінчуючи свою фразу.*"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:melon_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

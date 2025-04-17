@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Прохання про збір"
+    },
+    "description": {
+      "text": "Чи можеш ти допомогти мені здобути 4 чорнильних мішки кальмарів?"
+    }
+  }
+}

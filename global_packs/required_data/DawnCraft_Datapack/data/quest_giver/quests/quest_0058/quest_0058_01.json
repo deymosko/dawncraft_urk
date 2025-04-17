@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Мисливське Прохання"
+    },
+    "description": {
+      "text": "(*Ти розумієш, що акули не нападають так, як він описує; І що лише деякі з найбільш мирних видів акул, такі як $(red)Молотоголова Акула$(), залишають зуби після смерті. Але ти вирішив промовчати*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Ха-ха-ха... Я викарбую ім'я своєї сестри на цьому зубі та носитиму його як амулет. Дякую, пригоднику, ось твоя винагорода."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

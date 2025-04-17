@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Вибач за нечіткий опис... Але проблема в тому, що я не знаю, де знаходиться ця споруда або як вона виглядає. Це замок селян із механізмами Create, я впевнений, ти зрозумієш, коли побачиш."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Це захоплююче! Однак, я не думаю, що ці селяни побудували це самі, у них немає інженера... Хтось тримає їх там. У будь-якому разі, дякую. Ось тобі печиво."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:castle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

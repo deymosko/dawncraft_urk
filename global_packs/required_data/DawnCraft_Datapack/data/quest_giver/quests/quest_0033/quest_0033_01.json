@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Дивовижне М'ясо"
+    },
+    "description": {
+      "text": "Чи здобув ти $(red)м'ясо та шкуру кенгуру$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Ах... То ось яке воно, м'ясо кенгуру. Ніжне та соковите... А шкура, на жаль, не така добра, як звичайна шкіра, що ми використовуємо. Але гарний трофей, безперечно... Щиро дякую, пригоднику. Нема чим віддячити, але ось, візьми ці шматки яловичини. Щойно привезли, свіже м'ясо!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

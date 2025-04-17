@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0119_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Серце Дракона"
+    },
+    "description": {
+      "text": "Я бачив цих крижаних драконів одного разу. Жахливі створіння... Але їхня сутність така велична й приваблива. Я мушу дослідити елементи, що в них містяться."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудово! Ось твої нагороди. Тепер я мушу розпочати свої дослідження."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:icedragon_heart"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

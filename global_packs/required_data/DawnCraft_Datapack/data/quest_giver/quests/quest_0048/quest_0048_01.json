@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Мені потрібен капелюх відьми, будь-який підійде. Відьми рідко його залишають."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "ТИ ДУРЕНЬ! ТЕПЕР НАВЕДЕМО ЗАГИБЕЛЬ НА ЦЕ СЕЛО! Я ПРИЙМАЮ СЛАВУ ВІД СВОЄЇ ЖЕРТВИ, ЯКЩО ЦЕ ОЗНАЧАЄ КІНЕЦЬ ЦЬОМУ СЕЛУ!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:witch_hat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/execute as @a[advancements={custom:tricked/tricked=true},sort=nearest,limit=1] run function witch:start_witch_raid",
+      "id": "quest_giver:command"
+    }
+  ]
+}

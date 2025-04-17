@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Створення Вудки"
+    },
+    "description": {
+      "text": "Моя вудка майже зламалась... Чи не міг би ти зробити мені нову? Наш майстер зараз не в місті..."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Пригоднику, маю для тебе невеличке завдання, якщо ти готовий."
+    }
+  }
+}

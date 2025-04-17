@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Шлях до володарів очей"
+    },
+    "description": {
+      "text": "Бачиш карту, яку я тобі дав? Твоє перше завдання - знищити $(red)Короля гоблінів$(). Їх можна знайти на вершинах їхніх замків."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Шлях до володарів очей"
+    },
+    "description": {
+      "text": "Гарна робота. Здається, ти готовий зустрітися з $(red)Корумпованим Огром$(). Ось, істота, що мешкає в позначеному місці, тримає одне з очей."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:ogre_dwelling Основний квест – Лігво Порченого Огру",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

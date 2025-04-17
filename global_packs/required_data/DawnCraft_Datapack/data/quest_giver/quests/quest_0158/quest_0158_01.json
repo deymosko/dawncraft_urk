@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Два завдання лежать перед тобою: Вбий будь-яку істоту з відстані 100 кроків за допомогою орла в каптурі, та нагодуй свиню ферментованим павучим оком, а потім кинь у неї Хімікат X. Виконай їх, і я розгляну можливість довірити тобі Муку."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудово виконано! Ось вона. Її попередній господар був грізним воїном-пігліном."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/bald_eagle_challenge"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "mutantmonsters:spider_pig_spider_pig"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:tormented_mind"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

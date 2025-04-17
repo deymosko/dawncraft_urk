@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Привіт, друже, чи можеш ти допомогти мені з'ясувати дещо?"
+    }
+  }
+}

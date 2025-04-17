@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Розблокувати Ткацький Верстат"
+    },
+    "description": {
+      "text": "Без проблем, друже. Дай мені 15 смарагдів, і я навчу тебе користуватися ткацьким верстатом!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Ось тобі!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add agility level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

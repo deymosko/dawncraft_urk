@@ -1,0 +1,12 @@
+{
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Вітаю. Чи зацікавить тебе пригода для мене, мандрівнику?"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Щоб здобути цю зброю, ти мусиш спершу довести свою гідність, виконавши два завдання: Створи блок Полтергейста та впіймай маленького базікалу у пляшку."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудова робота! Ось Гезетц і Герршер. Наповнені могутністю океану, вони мають унікальні синергічні здібності, коли використовуються разом."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "biomemakeover:biomemakeover/poltergeist"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "cloudstorage:cloudstorage/angry_cloud_in_a_bottle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:herrscher"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "wom:gesetz"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

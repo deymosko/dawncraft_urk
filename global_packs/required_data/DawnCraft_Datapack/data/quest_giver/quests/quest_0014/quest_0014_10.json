@@ -1,0 +1,28 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Кінець Шляху"
+    },
+    "description": {
+      "text": "У мене більше немає інформації для тебе, друже. Йди за своїм покликанням."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Кінець... це лише Початок??"
+    },
+    "description": {
+      "text": "Отже... ти здолав дракона. Я припускаю, що це робить тебе новим правителем цього світу. Вітаю, хоробрий завойовнику. Ти зробив... усе, що міг. А тепер, якщо дозволиш, я піду."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": []
+}

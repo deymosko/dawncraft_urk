@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Чужоземні Розбійники"
+    },
+    "description": {
+      "text": "Чи можеш ти принести мені аркуш паперу? Я намалюю тобі карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось."
+    },
+    "description": {
+      "text": "Ось, група чужоземних розбійників побудувала своє лігво там, де позначено. Йди та знищи їхнього ватажка."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:dojo Foreign Outlaws' Dojo",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

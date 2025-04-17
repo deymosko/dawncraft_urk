@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0052_01b",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну що скажете?"
+    },
+    "description": {
+      "text": "Забули вже? Не переймайтесь, я нагадаю. Мені потрібен $(red)сніп соломи$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Сніп соломи! Тепер ми зможемо зробити собі нові солом'яні капелюхи! Дякую, добродію."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:straw_bale"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

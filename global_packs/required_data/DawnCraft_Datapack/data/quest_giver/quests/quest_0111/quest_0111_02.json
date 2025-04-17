@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Чи знищив ти велетня? Якщо так, принеси мені його здобич."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Гарна робота! Це точно одне з його очей... Дозволь, я навчу тебе бойовій навичці - Демонічний Стрибок, як плату. Ця навичка значно покращить твою спритність у бою!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:epicfight:demolition_leap}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

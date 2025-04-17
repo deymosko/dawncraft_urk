@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "Вже виконано!"
+    },
+    "description": {
+      "text": "О? Ти вже здолав володаря ока ще до того, як я дав тобі карту? Гм... Покажи мені саме те око, яке впало з володаря. Ба більше, кинь його на землю та підбери знову... Не питай, чому!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Кінець шляху"
+    },
+    "description": {
+      "text": "У мене більше немає для тебе відомостей, друже. Йди за своїм покликанням."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

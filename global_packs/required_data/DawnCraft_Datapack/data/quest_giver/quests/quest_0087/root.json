@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Привіт, ти виглядаєш, як вправний кухар. Чи не міг би ти приготувати щось для мене?"
+    }
+  }
+}

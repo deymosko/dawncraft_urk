@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Дивне Прохання"
+    },
+    "description": {
+      "text": "Чи можу я отримати одну з твоїх $(red)духовних сфер$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Структура цієї речі надто складна... Чи не міг би ти дати мені ще одну з таких?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

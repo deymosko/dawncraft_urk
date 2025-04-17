@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Чи здолав ти земного голема та здобув його $(red)Око Голема$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "О, Небеса! Це одна з найзахопливіших речей, які я коли-небудь бачив. Це перевершує всі мої уявлення. Ось, візьми цей червоний камінь як плату. Вибач, але смарагдів у мене зараз немає."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

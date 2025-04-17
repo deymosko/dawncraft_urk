@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0086_01b",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Термінове Прохання"
+    },
+    "description": {
+      "text": "Чи здобув ти $(red)16 залізних злитків$()? Прошу, поспішай."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую, я знаю, що не повинен просити пригодника допомагати зі збиранням ресурсів... Але в мене немає іншого вибору. Армія розбійників наближається, вони скоро прийдуть до цього села... Дай мені знати, якщо хочеш узяти контракт на знищення, я буду радий запропонувати."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 16
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

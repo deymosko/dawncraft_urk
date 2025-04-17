@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Згадав..."
+    },
+    "description": {
+      "text": "Згадав... Є спосіб, як я можу віддячити тобі. Чи можеш ти принести мені шматок паперу, щоб я намалював тобі карту?"
+    }
+  }
+}

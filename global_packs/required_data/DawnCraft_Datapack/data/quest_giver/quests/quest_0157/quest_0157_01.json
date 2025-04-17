@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Я хочу, щоб ти виконав два завдання: Отримай благословення шляхетного сонцептаха та виклич мутованого снігового голема. Тоді я розгляну можливість передати тобі Агонію."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Неймовірно! Візьми це. Його попередній власник загинув від лютих звірів. Нехай твоя доля буде іншою."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

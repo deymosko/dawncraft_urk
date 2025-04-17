@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Порада"
+    },
+    "description": {
+      "text": "Мої дорогоцінні врожаї останнім часом не ростуть як слід... Чи можеш ти допомогти мені здобути $(red)8 кісток$(), щоб зробити добриво?"
+    }
+  }
+}

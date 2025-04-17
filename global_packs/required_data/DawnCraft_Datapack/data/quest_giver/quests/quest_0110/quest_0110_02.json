@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0110_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ну що?"
+    },
+    "description": {
+      "text": "Чи знищив ти вже печерного жителя? Якщо так, принеси мені його здобич."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дивно уявити істоту з природною бронею такої міцності... Ну, я радий, що вона мертва. Ось, я навчу тебе новій навичці як плату - Двосічний Великий Меч."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:dweller_armor_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:efdg:dualgreatsword}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "quest_giver:quest_0073_01b",
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Знання Лісівництва"
+    },
+    "description": {
+      "text": "Три види листя, які треба здобути: $(red)Сутінкове Листя, Кленове Листя, Зоряне Листя$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Це захоплююче! Як таке можливо, що є спільні риси у рослин, які ростуть у зовсім різних середовищах? У будь-якому разі, ось твоя винагорода."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "blue_skies:dusk_leaves"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "blue_skies:maple_leaves"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "blue_skies:starlit_leaves"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_librarian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:arcane_ingot"
+      },
+      "id": "quest_giver:item",
+      "times": 10
+    }
+  ]
+}

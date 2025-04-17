@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Зачаровані Стріли"
+    },
+    "description": {
+      "text": "Я намагаюся створити зачаровані стріли. Чи можеш ти здобути для мене дюжину пилу світокаменю?"
+    }
+  }
+}

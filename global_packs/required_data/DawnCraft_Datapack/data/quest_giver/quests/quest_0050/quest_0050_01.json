@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Порада"
+    },
+    "description": {
+      "text": "Лише слово поради... Хоча більшість людей тут добрі, деякі з них... не зовсім. Не вір усьому, що кажуть, так?"
+    }
+  }
+}

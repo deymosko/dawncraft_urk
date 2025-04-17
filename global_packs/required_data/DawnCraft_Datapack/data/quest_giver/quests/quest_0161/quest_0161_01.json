@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Здобудь право володіти Антитеусом, виконавши два завдання на моє задоволення: Осідлай лавіафана з трьома іншими пасажирами та підстрижи муублума."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Вітаю! Ось він. Цей бластер завдає потужного удару, наповненого величезним джерелом енергії."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "friendsandfoes:husbandry/shear_a_moobloom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:antitheus"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

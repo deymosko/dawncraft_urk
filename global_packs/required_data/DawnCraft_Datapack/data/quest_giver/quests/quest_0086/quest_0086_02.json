@@ -1,0 +1,42 @@
+{
+  "parent": "quest_giver:quest_0086_02b",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Контракт на Знищення"
+    },
+    "description": {
+      "text": "Повернись до мене, коли завершиш контракт на знищення - $(red)Вбий 5 Розбійників$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую... Здається, час настав. Розбійники вже тут. Товаришу, я викував цей великий меч для таких часів. Прошу, використай його з розумом і допоможи нам. Усі наші життя тепер залежать від тебе."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/effect give @p minecraft:bad_omen 10 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p epicfight:iron_greatsword{Enchantments:[{id:apotheosis:bane_of_illagers,lvl:3}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Гей!"
+    },
+    "description": {
+      "text": "Я мрію випити пляшку меду! Чи не міг би ти принести одну для мене?"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0071_01",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Ну що?"
+    },
+    "description": {
+      "text": "Повернись до мене, якщо знайдеш книгу."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Ця книга має... сентиментальну цінність. Слів не вистачить, щоб висловити мою вдячність за твою службу. Ось, візьми це. Чув, що пригодники теж користуються магією, чи не так?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:written_book",
+        "forge:nbt": "{tag:librarian}"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:arcane_ingot"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 8
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Розблокувати Картографічний Стіл"
+    },
+    "description": {
+      "text": "Ох... гм, гаразд. Дай мені 15 смарагдів, і я навчу тебе користуватися ним."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось тобі."
+    },
+    "description": {
+      "text": "Не лякайся обладнання на столі, ти швидко розберешся!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

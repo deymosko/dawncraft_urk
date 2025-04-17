@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Мапа до Ендер-Охоронця"
+    },
+    "description": {
+      "text": "Ніщо не дається задарма, друже. Дай мені 5 смарагдів, і я покажу тобі шлях до Ендер-Охоронця."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дуже добре, ось тобі. Пам'ятай, не відкривай цю мапу, поки не будеш у Краю. Не кажи, що я тебе не попереджав."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p enderian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

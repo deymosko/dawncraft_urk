@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0014_01b",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "Перше завдання"
+    },
+    "description": {
+      "text": "Повернися, коли виконаєш вимоги - $(red)Вбий 10 розбійників$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Перше завдання"
+    },
+    "description": {
+      "text": "Ось, скористайся цим, щоб отримати своє перше покращення від $(green)статуї богині$(). Рекомендую поговорити з деякими охоронцями тут, якщо хочеш навчитися нових умінь. Щасти тобі в подорожі."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep Основний квест – Фортеця короля гоблінів",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster0",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

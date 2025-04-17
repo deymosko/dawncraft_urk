@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_03",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Привіт, чи здобув ти $(red)2 буряки$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:beetroot"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

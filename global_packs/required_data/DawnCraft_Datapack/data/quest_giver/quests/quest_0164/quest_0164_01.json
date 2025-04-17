@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Неможливе Завдання!"
+    },
+    "description": {
+      "text": "Доведи свою готовність, виконавши два завдання: Здобудь лялечку листорізного мурашки, яку можна розмістити на землі, щоб започаткувати колонію листорізних мурашок. А також збудуй піщаний замок, щоб захистити яйця черепах. Лише тоді я передам тобі цю зброю."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Вітаю! Ось вона. Вплив шалкера змінив зброю до невпізнання, повністю поглинувши її первісну форму."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "ecologics:husbandry/sandcastle"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:moonless"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

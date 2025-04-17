@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Знову вітаю!"
+    },
+    "description": {
+      "text": "Хоробрий чоловіче. Прошу, дай мені аркуш паперу, аби я міг показати тобі, де перебуває ця істота."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось."
+    },
+    "description": {
+      "text": "Ось, хоча інформацію нам надав священник, тож я не певен, чи вона цілком точна. У будь-якому разі, знайди цю істоту, знищ її та принеси все, що вона залишить."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:cave_dwelling Extermination Request - Cave Dweller",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

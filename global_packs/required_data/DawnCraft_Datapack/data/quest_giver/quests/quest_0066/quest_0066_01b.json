@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Допоможи"
+    },
+    "description": {
+      "text": "Мені потрібно $(red)2 шматки хутра чорного ведмедя$(). Повернись, коли здобудеш їх."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0091_01b",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Ну що скажеш?"
+    },
+    "description": {
+      "text": "Дозволь мені поглянути на $(red)яйце дракона$(), якщо ти його здобув. Це завжди було моєю мрією."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Ось як воно виглядає... Чи знаєш ти, що можна покласти яйце дракона, і воно вилупиться у нового дракона? Я навчу тебе, як його приручити: просто годуй його рибою, скільки зможеш... Просто, чи не так?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add taming level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

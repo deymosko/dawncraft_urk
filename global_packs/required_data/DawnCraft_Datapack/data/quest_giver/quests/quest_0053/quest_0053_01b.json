@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Привіт"
+    },
+    "description": {
+      "text": "Чудово, чи можеш ти здобути для мене $(red)2 цибулини$()?"
+    }
+  }
+}
